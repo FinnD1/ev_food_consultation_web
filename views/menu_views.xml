@@ -1,0 +1,7 @@
+<odoo>
+    <!-- This Menu Item will appear in the Upper bar, That's why It needs NO parent or action -->
+    <menuitem id="food_menu_root" name="Food Consultation" sequence="1"/>
+
+    <!-- This Menu Item Must have a parent -->
+    <menuitem id="food_category" name="Food Category" parent="food_menu_root" sequence="3"/>
+</odoo>

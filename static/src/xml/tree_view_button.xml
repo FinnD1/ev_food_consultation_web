@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates>
+    <!--    <t t-extend="ListView.buttons">-->
+    <!--        <t t-jquery="div.o_list_buttons" t-operation="append">-->
+    <!--            <button type="button" t-if='widget.modelName == "food.consultation.detail"'-->
+    <!--                    class="oe_new_custom_button btn btn-primary">Random-->
+    <!--            </button>-->
+    <!--        </t>-->
+    <!--    </t>-->
+    <t t-extend="ListView.buttons">
+        <t t-name="button_random.ListView.Buttons" t-inherit="web.ListView.Buttons">
+            <xpath expr="//*[@class='btn btn-primary o_list_button_add']" position="after">
+                <button type="button" class="oe_new_custom_button btn btn-primary" t-on-click="OnTestClick">Random Food
+                </button>
+            </xpath>
+        </t>
+    </t>
+</templates>
