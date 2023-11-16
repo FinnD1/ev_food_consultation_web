@@ -1,0 +1,36 @@
+<odoo>
+    <record id="vietnam_food_view_tree" model="ir.ui.view">
+        <field name="name">vietnam_food_view_tree</field>
+        <field name="model">vietnam.food</field>
+        <field name="arch" type="xml">
+            <tree string="vietnam_food_tree">
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+    <record id="vietnam_food_view_form" model="ir.ui.view">
+        <field name="name">vietnam_food_view_form</field>
+        <field name="model">vietnam.food</field>
+        <field name="arch" type="xml">
+            <form string="vietnam_food_form">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="vietnam_food_action" model="ir.actions.act_window">
+        <field name="name">vietnam_food</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">vietnam.food</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <!-- This Menu Item must have a parent and an action -->
+    <menuitem id="vietnam_food_menu"
+              name="VietNam Food"
+              action="vietnam_food_action"
+              parent="food_category"
+              sequence="1"/>
+</odoo>
