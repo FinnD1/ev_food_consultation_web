@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Sequences for asset liquidation -->
+        <record id="seq_food_consultation_menu" model="ir.sequence">
+            <field name="name">Menu Sequence</field>
+            <field name="code">food.consultation.menu</field>
+            <field name="prefix">THUCDON</field>
+            <field name="padding">4</field>
+<!--            <field name="company_id" eval="False"/>-->
+        </record>
+    </data>
+</odoo>
+
