@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates>
+    <!--    <t t-extend="ListView.buttons">-->
+    <!--        <t t-jquery="div.o_list_buttons" t-operation="append">-->
+    <!--            <button type="button" t-if='widget.modelName == "food.consultation.detail"'-->
+    <!--                    class="oe_new_custom_button btn btn-primary">Random-->
+    <!--            </button>-->
+    <!--        </t>-->
+    <!--    </t>-->
+    <t t-extend="ListView.buttons">
+        <t t-jquery="o_legacy_list_buttons d-flex" t-operation="append">
+<!--            <xpath expr="//*[@class='btn btn-primary o_list_button_add']" position="append">-->
+            <button type="button" t-if='widget.modelName == "food.consultation.detail"'
+                    class="btn btn-primary o_list_button_add">Random Food
+            </button>
+<!--            </xpath>-->
+        </t>
+    </t>
+</templates>
+<!--<templates>-->
+<!--    <t t-extend="KanbanView.buttons" t-name="BillsKanbanView.buttons">-->
+<!--        <t t-jquery="button" t-operation="after">-->
+<!--            <button type="button" class="btn btn-secondary  on_upload"-->
+<!--                    name="upload_button">Upload-->
+<!--            </button>-->
+<!--        </t>-->
+<!--    </t>-->
+
+<!--</templates>-->
