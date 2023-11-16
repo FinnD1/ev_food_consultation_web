@@ -1,4 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-food_consultation_detail,food_consultation_detail,model_food_consultation_detail,base.group_user,1,1,1,1
-food_consultation_ingredient,food_consultation_ingredient,model_food_consultation_ingredient,base.group_user,1,1,1,1
-vietnam_food,vietnam_food,model_vietnam_food,base.group_user,1,1,1,1
