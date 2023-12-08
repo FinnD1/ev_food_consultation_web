@@ -1,0 +1,30 @@
+<odoo>
+    <record id="food_intro_form_view" model="ir.ui.view">
+        <field name="name">food_intro_form_view</field>
+        <field name="model">food.intro</field>
+        <field name="arch" type="xml">
+            <form string="Food Intro">
+                <div style="position:absolute; left:0; top:0; width:100%; height:100%;">
+                    <iframe src="https://www.fitmealfood.com/fit-drink"
+                            width="100%" height="100%"
+                            marginwidth="0" marginheight="0"
+                            frameborder="no" scrolling="no"
+                            style="border-width:0px;">
+                    </iframe>
+                </div>
+            </form>
+        </field>
+    </record>
+    <record id="food_intro_action" model="ir.actions.act_window">
+        <field name="name">Food Intro</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">food.intro</field>
+        <field name="view_mode">form</field>
+    </record>
+    <!-- This Menu Item must have a parent and an action -->
+    <menuitem id="food_intro_menu"
+              name="Food Intro"
+              action="food_intro_action"
+              parent="food_menu_root"
+              sequence="1"/>
+</odoo>

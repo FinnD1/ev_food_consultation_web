@@ -12,13 +12,12 @@ class FoodConsultationDetail(models.Model):
     _order = 'name desc'
     _rec_name = 'name'
 
-    # def _default_request_user_id(self):
-    #     current_user = self.env.user
-    #     if current_user:
-    #         return current_user.name
+    def _default_request_user_id(self):
+        return self.env.user.name
 
     name = fields.Char(string='Name', required=True, copy=False, tracking=True, help="Name")
     create_user_id = fields.Many2one('res.users', string='Create User', ondelete='cascade',
+                                     default=lambda self: self._default_request_user_id(),
                                      help="Create_user_id", tracking=True)
     # create_employee_id = fields.Many2one('hr.employee', string='Create User', ondelete='cascade',
     #                                      default=lambda self: self._default_request_user_id(),
@@ -31,6 +30,15 @@ class FoodConsultationDetail(models.Model):
     preparation_ids = fields.One2many('food.consultation.preparation', 'food_detail_id',
                                       string='Preparation', help='preparation_ids', tracking=True,
                                       ondelete='restrict')
+    flavor_id = fields.Many2many('food.consultation.flavor', string='Flavor', help='flavor_id', tracking=True,
+                                 ondelete='restrict')
+    benefit_id = fields.Many2many('food.consultation.benefit', string='Benefit', help='benefit_id', tracking=True,
+                                  ondelete='restrict')
+    season_id = fields.Many2one('food.consultation.season', string='Season', help='season_id', tracking=True,
+                                ondelete='restrict')
+    food_menu_id = fields.Many2one('food.consultation.menu',
+                                   string='Food Menu', ondelete='cascade',
+                                   help='food_menu_id')
     time = fields.Float()
     priority = fields.Selection([
         ('0', 'Normal'),
@@ -45,6 +53,8 @@ class FoodConsultationDetail(models.Model):
                              ('3', '3 Star'),
                              ('4', '4 Star'),
                              ('5', '5 Star')], string='Rate', defalt='1')
+    food_template_image_ids = fields.One2many('food.consultation.image', 'product_tmpl_id',
+                                              string="Extra Product Media", copy=True)
 
     _sql_constraints = [
         ('name_unique',
@@ -78,3 +88,16 @@ class FoodConsultationDetail(models.Model):
         #                   }
         # raise res
         raise ValidationError(_("Món ăn hôm nay của bạn sẽ là: {name}".format(name=random_name)))
+
+    def _get_images(self):
+        """Return a list of records implementing `image.mixin` to
+        display on the carousel on the website for this template.
+
+        This returns a list and not a recordset because the records might be
+        from different models (template and image).
+
+        It contains in this order: the main image of the template and the
+        Template Extra Images.
+        """
+        self.ensure_one()
+        return [self] + list(self.food_template_image_ids)
