@@ -56,10 +56,10 @@ class FoodConsultationMenu(models.Model):
         self.line_dessert_id = [(6, 0, record_dessert_ids)]
         self.line_id = [(6, 0, record_ids)]
 
-    @api.onchange('line_id')
-    def _onchange_images(self):
-        if self.line_id:
-            image_ids = self.line_id.mapped('image_ids.id')
-            self.images = [(6, 0, image_ids)]
+    # @api.onchange('line_id')
+    # def _onchange_images(self):
+    #     if self.line_id:
+    #         image_ids = self.line_id.mapped('image_ids.id')
+    #         self.images = [(6, 0, image_ids)]
 
 

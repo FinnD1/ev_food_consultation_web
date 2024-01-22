@@ -7,4 +7,6 @@
 
     <!-- This Menu Item Must have a parent -->
     <menuitem id="food_config" name="Food Config" parent="food_menu_root" sequence="3"/>
+
+    <menuitem id="food_config11" name="Gop y" parent="food_menu_root" sequence="4"/>
 </odoo>

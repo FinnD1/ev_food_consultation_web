@@ -34,6 +34,7 @@
         'views/food_consultation_benefit_views.xml',
         'views/food_consultation_season_views.xml',
         'views/food_consultation_dessert_views.xml',
+        'views/food_consultation_sickness_views.xml',
         # 'views/food_consultation_detail_button.xml',
         # 'views/template.xml',
     ],

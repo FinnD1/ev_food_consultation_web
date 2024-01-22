@@ -23,7 +23,7 @@ class FoodConsultationDetail(models.Model):
     #                                      default=lambda self: self._default_request_user_id(),
     #                                      help="Create_employee_id", tracking=True)
     image = fields.Image(string="Image")
-    description = fields.Char()
+    description = fields.Text()
     ingredient_ids = fields.One2many('food.consultation.ingredient', 'food_detail_id',
                                      string='Ingredient', help='ingredient_ids', tracking=True,
                                      ondelete='restrict')
@@ -39,6 +39,9 @@ class FoodConsultationDetail(models.Model):
     food_menu_id = fields.Many2one('food.consultation.menu',
                                    string='Food Menu', ondelete='cascade',
                                    help='food_menu_id')
+    sickness_id = fields.Many2many('food.consultation.sickness',
+                                   string='Sickness', ondelete='cascade',
+                                   help='sickness_id')
     time = fields.Float()
     priority = fields.Selection([
         ('0', 'Normal'),

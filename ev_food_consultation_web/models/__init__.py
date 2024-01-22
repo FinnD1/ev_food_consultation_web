@@ -7,4 +7,5 @@ from . import food_consultation_benefit
 from . import food_consultation_image
 from . import food_consultation_dessert
 from . import food_consultation_season
+from . import food_consultation_sickness
 from . import food_intro_web

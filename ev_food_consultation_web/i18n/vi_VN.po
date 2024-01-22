@@ -183,6 +183,7 @@ msgstr "Người tạo"
 #: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_preparation__create_uid
 #: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__create_uid
 #: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__create_uid
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_sickness__create_uid
 msgid "Created by"
 msgstr "Tạo bởi"
 
@@ -196,6 +197,7 @@ msgstr "Tạo bởi"
 #: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__create_date
 #: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_preparation__create_date
 #: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__create_date
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_sickness__create_date
 #: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__create_date
 msgid "Created on"
 msgstr "Ngày tạo"
@@ -220,7 +222,9 @@ msgstr ""
 #: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_benefit__description
 #: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_flavor__description
 #: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_menu__description
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_sickness__description
 #: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_season__description
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_sickness__description
 msgid "Description"
 msgstr "Mô tả"
 
@@ -234,6 +238,7 @@ msgstr "Mô tả"
 #: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__display_name
 #: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_preparation__display_name
 #: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__display_name
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_sickness__display_name
 #: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__display_name
 msgid "Display Name"
 msgstr "Tên hiển thị"
@@ -279,6 +284,7 @@ msgstr "Hương vị"
 #: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__message_follower_ids
 #: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__message_follower_ids
 #: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__message_follower_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_sickness__message_follower_ids
 msgid "Followers"
 msgstr "Người theo dõi"
 
@@ -290,6 +296,7 @@ msgstr "Người theo dõi"
 #: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__message_partner_ids
 #: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__message_partner_ids
 #: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__message_partner_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_sickness__message_partner_ids
 msgid "Followers (Partners)"
 msgstr "Người theo dõi(Đối tác)"
 
@@ -319,6 +326,21 @@ msgstr "Tác dụng Sức khoẻ"
 #: model:ir.ui.menu,name:ev_food_consultation_web.food_category
 msgid "Food Category"
 msgstr "Danh mục món ăn"
+
+#. module: ev_food_consultation_web
+#: model:ir.model,name:ev_food_consultation_web.model_food_consultation_sickness
+msgid "Food Consultation Sickness"
+msgstr "Tác dụng chữa bệnh"
+
+#. module: ev_food_consultation_web
+#: model:ir.ui.menu,name:ev_food_consultation_web.food_consultation_sickness_menu
+msgid "Food Sickness"
+msgstr "Tác dụng chữa bệnh"
+
+#. module: ev_food_consultation_web
+#: model:ir.actions.act_window,name:ev_food_consultation_web.food_consultation_sickness_action
+msgid "Food sickness"
+msgstr "Tác dụng chữa bệnh"
 
 #. module: ev_food_consultation_web
 #: model:ir.ui.menu,name:ev_food_consultation_web.food_config
@@ -470,6 +492,7 @@ msgstr "Kích thước tập tin lớn. Hình ảnh cần được tối ưu hó
 #: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_preparation__id
 #: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__id
 #: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_sickness__id
 msgid "ID"
 msgstr ""
 
@@ -599,6 +622,7 @@ msgstr "Là người theo dõi"
 #: code:addons/ev_food_consultation_web/models/food_consultation_detail.py:0
 #: code:addons/ev_food_consultation_web/models/food_consultation_flavor.py:0
 #: code:addons/ev_food_consultation_web/models/food_consultation_season.py:0
+#: code:addons/ev_food_consultation_web/models/food_consultation_sickness.py:0
 #, python-format
 msgid "It not possible to dupplicate the record."
 msgstr "Không khả dụng nhân bản bản ghi"
@@ -614,6 +638,7 @@ msgstr "Không khả dụng nhân bản bản ghi"
 #: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_preparation____last_update
 #: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season____last_update
 #: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro____last_update
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_sickness____last_update
 msgid "Last Modified on"
 msgstr "Lần cuối chỉnh sửa vào"
 
@@ -641,6 +666,7 @@ msgstr "Lần cuối cập nhật bởi"
 #: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__write_date
 #: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_preparation__write_date
 #: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__write_date
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_sickness__write_date
 #: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__write_date
 msgid "Last Updated on"
 msgstr "Lần cuối cập nhật vào"
@@ -731,9 +757,23 @@ msgstr "Món ăn hôm nay của bạn sẽ là: {name}"
 #: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_ingredient__name
 #: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_menu__name
 #: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_preparation__name
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_sickness__name
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_sickness__name
 #: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_season__name
 msgid "Name"
 msgstr "Tên"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__sickness_id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__sickness_id
+msgid "Sickness"
+msgstr "Tác dụng chữa bệnh"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_dessert__sickness_id
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_detail__sickness_id
+msgid "sickness_id"
+msgstr "Tác dụng chữa bệnh"
 
 #. module: ev_food_consultation_web
 #. odoo-javascript

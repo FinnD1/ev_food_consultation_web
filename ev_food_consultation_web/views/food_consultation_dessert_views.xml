@@ -48,9 +48,10 @@
                             <div class="radioBtn">
                                 <field name="level_difficult" widget="selection_badge" options="{'horizontal': true}"/>
                             </div>
-                            <field name="flavor_id" class="custom-field-class" widget="many2many_tags"/>
-                            <field name="benefit_id" class="custom-field-class" widget="many2many_tags"/>
-                            <field name="season_id" class="custom-field-class"/>
+                            <field name="flavor_id" options="{'no_edit': True, 'no_create': True}" class="custom-field-class" widget="many2many_tags"/>
+                            <field name="benefit_id" options="{'no_edit': True, 'no_create': True}" class="custom-field-class" widget="many2many_tags"/>
+                            <field name="season_id" options="{'no_edit': True, 'no_create': True}" class="custom-field-class"/>
+                            <field name="sickness_id" options="{'no_edit': True, 'no_create': True}" class="custom-field-class" widget="many2many_tags"/>
                         </group>
                         <notebook>
                             <page string="Ingredient">
@@ -80,7 +81,7 @@
                             <page string="Information">
                                 <group>
                                     <group>
-                                        <field name="create_user_id"/>
+                                        <field name="create_user_id" options="{'no_edit': True, 'no_create': True}"/>
                                     </group>
                                     <group string="Extra Product Media">
                                         <field name="food_template_image_ids" class="o_website_sale_image_list"
@@ -173,9 +174,11 @@
             <field name="model">food.consultation.dessert</field>
             <field name="arch" type="xml">
                 <search>
-                    <field name="name" string="string"/>
+                    <field name="name"/>
                     <field name="ingredient_ids"/>
                     <field name="flavor_id"/>
+                    <field name="benefit_id"/>
+                    <field name="sickness_id"/>
                     <searchpanel>
                         <field name="priority" icon="fa-star" enable_counters="1"/>
                         <field name="level_difficult" icon="fa-users" enable_counters="1"/>
@@ -283,7 +286,7 @@
         <menuitem id="food_consultation_dessert_menu"
                   name="Food Dessert"
                   action="food_consultation_dessert_action"
-                  parent="food_category"
+                  parent="food_config11"
                   sequence="2"/>
     </data>
 </odoo>

@@ -22,7 +22,7 @@
                     <group>
                         <field name="name" readonly="1"/>
                         <field name="description"/>
-                        <field name="date" readonly="1"/>
+                        <field name="date"/>
                     </group>
                     <group>
                         <button name="action_random_menu" string="Random Menu" type="object"/>
@@ -31,7 +31,7 @@
                         <field name="line_dessert_id" placeholder="Choose your dish for today">
                             <tree edit="0">
                                 <field name="name" force_save="1"/>
-                                <field name="description" force_save="1"/>
+                                <field name="description" optional="hide" force_save="1"/>
                                 <field name="rate" force_save="1"/>
                             </tree>
                         </field>
@@ -39,8 +39,9 @@
                     <group string="Food List">
                         <field name="line_id" placeholder="Choose your dish for today">
                             <tree edit="0">
+                                <field name="image" force_save="1"/>
                                 <field name="name" force_save="1"/>
-                                <field name="description" force_save="1"/>
+                                <field name="description" optional="hide" force_save="1"/>
                                 <field name="rate" force_save="1"/>
                             </tree>
                         </field>
