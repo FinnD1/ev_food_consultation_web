@@ -1,3 +1,4 @@
+/*css button primary*/
 .btn-primary {
   cursor: pointer;
   position: relative;
@@ -38,6 +39,49 @@
 
 .btn-primary:active {
   scale: 1;
+}
+/*css button random*/
+.o_list_button_random{
+  cursor:pointer;
+  position:relative;
+  padding:10px 20px;
+  background:white;
+  font-size:28px;
+  border-top-right-radius:10px;
+  border-bottom-left-radius:10px;
+  transition:all 1s;
+  &:after,&:before{
+    content:" ";
+    width:10px;
+    height:10px;
+    position:absolute;
+    border :0px solid #fff;
+    transition:all 1s;
+    }
+  &:after{
+    top:-1px;
+    left:-1px;
+    border-top:5px solid black;
+    border-left:5px solid black;
+  }
+  &:before{
+    bottom:-1px;
+    right:-1px;
+    border-bottom:5px solid black;
+    border-right:5px solid black;
+  }
+  &:hover{
+    border-top-right-radius:0px;
+  border-bottom-left-radius:0px;
+    // background:rgba(0,0,0,.5);
+    // color:white;
+    &:before,&:after{
+
+      width:100%;
+      height:100%;
+      // border-color:white;
+    }
+  }
 }
 
 .rating {
@@ -159,3 +203,134 @@
     font-weight: bold;
     color: #8080ff;
 }
+
+/* Tùy chỉnh kích thước và màu sắc của input trong search panel */
+.o_searchview_input_container input {
+    padding: 10px; /* Điều chỉnh padding */
+    border: 1px solid #black; /* Điều chỉnh viền */
+    border-radius: 4px; /* Bo góc */
+}
+
+/* Tùy chỉnh màu nền và viền của search panel */
+.o_searchview {
+    background-color: #fff; /* Màu nền */
+    border: 5px solid #b8a7fd; /* Viền */
+    border-radius: 10px; /* Bo góc */
+    margin: 2px; /* Khoảng cách dưới cùng */
+}
+
+/* Sử dụng flexbox để tự động chia đều các bản ghi Kanban */
+.o_kanban_view {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Để chia đều các bản ghi */
+}
+
+.o_kanban_view .o_kanban_record :hover .image_kanban {
+    transform: scale(1.2); /* Phóng to lên 110% khi rê chuột vào */
+    transition: transform 1s ease; /* Áp dụng hiệu ứng transition */
+    z-index: 999; /* Đảm bảo thẻ Kanban rê chuột vào hiển thị trên cùng */
+    filter: brightness(90%);
+    color: #fff; /* Màu chữ khi hover vào */
+    border-radius: 20px; /* Độ bo góc (ở đây là 8px, bạn có thể điều chỉnh giá trị để thay đổi độ cong) */
+}
+
+/* CSS để áp dụng border-radius cho bản ghi trong Kanban view */
+.o_kanban_view .o_kanban_record {
+    background-color: #b8a7fd;
+    border-radius: 20px; /* Độ bo góc cho bản ghi */
+    overflow: hidden; /* Loại bỏ phần nội dung tràn ra ngoài nếu có */
+    transition: border-radius 1s ease; /* Áp dụng hiệu ứng transition khi thay đổi border-radius */
+}
+
+.o_kanban_view .o_kanban_record:hover {
+    border-radius: 20px; /* Độ bo góc khi hover vào */
+}
+
+/* CSS để căn giữa hình ảnh trong Kanban view */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; /* Chiều cao của container */
+}
+.image_kanban {
+    width: 300px;
+    height: 100%; /* Chiều cao của hình ảnh */
+    border-radius: 20px; /* Bo góc hình ảnh thành hình tròn */
+    object-fit: cover; /* Đảm bảo hình ảnh vừa với kích thước mà không bị bóp méo */
+}
+
+.o_kanban_view .o_kanban_record :hover .image_kanban1 {
+    transform: scale(1.01); /* Phóng to lên 110% khi rê chuột vào */
+    transition: transform 1s ease; /* Áp dụng hiệu ứng transition */
+    z-index: 999; /* Đảm bảo thẻ Kanban rê chuột vào hiển thị trên cùng */
+    filter: brightness(90%);
+    color: #fff; /* Màu chữ khi hover vào */
+    border-radius: 20px; /* Độ bo góc (ở đây là 8px, bạn có thể điều chỉnh giá trị để thay đổi độ cong) */
+}
+
+.image_kanban1 {
+    width: 300px;
+    height: 100%; /* Chiều cao của hình ảnh */
+    border-radius: 20px; /* Bo góc hình ảnh thành hình tròn */
+    object-fit: cover; /* Đảm bảo hình ảnh vừa với kích thước mà không bị bóp méo */
+}
+
+
+.oe_kanban_details {
+    margin-top:30px;
+    margin-left:5px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.o_search_panel {
+    background-color: #b8a7fd;
+}
+
+/* Define the animation */
+@keyframes slide-in {
+    from {
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Define the animation */
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Define the animation */
+@keyframes scale-in {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+/* Chuyển đổi khi di vào */
+.o_kanban_record:hover {
+    animation: fade-in 0.3s ease-in-out;
+}
+
+.custom-field-class:hover {
+                background-color: #f0f0f0;
+                border: 1px solid #ccc;
+                /* Thêm các thuộc tính CSS khác tùy ý */
+            }
+
+

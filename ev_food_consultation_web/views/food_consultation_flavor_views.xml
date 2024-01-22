@@ -1,0 +1,39 @@
+<odoo>
+    <record id="food_consultation_flavor_tree_view" model="ir.ui.view">
+        <field name="name">food_consultation_flavor_tree_view</field>
+        <field name="model">food.consultation.flavor</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="id"/>
+                <field name="name"/>
+                <field name="description"/>
+            </tree>
+        </field>
+    </record>
+    <record id="food_consultation_flavor_form_view" model="ir.ui.view">
+        <field name="name">food_consultation_flavor_form_view</field>
+        <field name="model">food.consultation.flavor</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="description"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="food_consultation_flavor_action" model="ir.actions.act_window">
+        <field name="name">Food Flavor</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">food.consultation.flavor</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <!-- This Menu Item must have a parent and an action -->
+    <menuitem id="food_consultation_flavor_menu"
+              name="Food Flavor"
+              action="food_consultation_flavor_action"
+              parent="food_config"
+              sequence="1"/>
+</odoo>

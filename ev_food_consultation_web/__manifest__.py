@@ -25,16 +25,31 @@
     'data': [
         'security/food_security.xml',
         'security/ir.model.access.csv',
+        'data/food_consultation_menu_data.xml',
         'views/menu_views.xml',
+        'views/food_intro_views.xml',
         'views/food_consultation_detail_views.xml',
         'views/food_consultation_menu_views.xml',
+        'views/food_consultation_flavor_views.xml',
+        'views/food_consultation_benefit_views.xml',
+        'views/food_consultation_season_views.xml',
+        'views/food_consultation_dessert_views.xml',
+        'views/food_consultation_sickness_views.xml',
         # 'views/food_consultation_detail_button.xml',
         # 'views/template.xml',
     ],
 
     'assets': {
-        'web.assets_backend': ["/ev_food_consultation_web/static/src/scss/style.scss",
-                               "/ev_food_consultation_web/static/src/css/style.css"]
+        'web.assets_frontend': [
+            'ev_food_consultation_web/static/src/xml/website_sale.xml',
+            'ev_food_consultation_web/static/src/xml/website_sale_image_viewer.xml',
+            'ev_food_consultation_web/static/src/js/components/website_sale_image_viewer.js',
+        ],
+        'web.assets_backend': [
+            "/ev_food_consultation_web/static/src/js/website_sale_video_field_preview.js",
+            "/ev_food_consultation_web/static/src/scss/style.scss",
+            "/ev_food_consultation_web/static/src/css/style.css",
+        ]
     },
     # 'assets': {
     #     'web._assets_primary_variables': [
@@ -57,16 +72,16 @@
     #         'account/static/src/js/tours/account.js',
     #         'account/static/src/xml/**/*',
     #     ],
-        # 'web.assets_frontend': [
-        #     'account/static/src/js/account_portal_sidebar.js',
-        #     'account/static/src/js/account_portal.js',
-        # ],
-        # 'web.assets_tests': [
-        #     'account/static/tests/tours/**/*',
-        # ],
-        # 'web.qunit_suite_tests': [
-        #     'account/static/tests/*.js',
-        # ],
+    # 'web.assets_frontend': [
+    #     'account/static/src/js/account_portal_sidebar.js',
+    #     'account/static/src/js/account_portal.js',
+    # ],
+    # 'web.assets_tests': [
+    #     'account/static/tests/tours/**/*',
+    # ],
+    # 'web.qunit_suite_tests': [
+    #     'account/static/tests/*.js',
+    # ],
 
     # "qweb": ['static/xml/tree_view_button.xml'],
 

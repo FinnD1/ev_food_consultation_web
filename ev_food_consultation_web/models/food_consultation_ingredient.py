@@ -16,11 +16,6 @@ class FoodConsultationIngredient(models.Model):
     request_qty = fields.Integer(string='Request Quantity', help='request_qty', default=1)
     ingredient_description = fields.Text(string='Ingredient Description', required=True, help='ingredient_description')
 
-    _sql_constraints = [
-        ('name_unique',
-         'UNIQUE(name)',
-         "The name must be UNIQUE")
-    ]
 
     @api.onchange('request_qty')
     def _check_qty(self):

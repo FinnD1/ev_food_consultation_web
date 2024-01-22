@@ -1,0 +1,1162 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* ev_food_consultation_web
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-08 03:56+0000\n"
+"PO-Revision-Date: 2023-12-08 03:56+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields.selection,name:ev_food_consultation_web.selection__food_consultation_dessert__rate__0
+#: model:ir.model.fields.selection,name:ev_food_consultation_web.selection__food_consultation_detail__rate__0
+msgid "0 Star"
+msgstr "0 Sao"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields.selection,name:ev_food_consultation_web.selection__food_consultation_dessert__rate__1
+#: model:ir.model.fields.selection,name:ev_food_consultation_web.selection__food_consultation_detail__rate__1
+msgid "1 Star"
+msgstr "1 Sao"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields.selection,name:ev_food_consultation_web.selection__food_consultation_dessert__rate__2
+#: model:ir.model.fields.selection,name:ev_food_consultation_web.selection__food_consultation_detail__rate__2
+msgid "2 Star"
+msgstr "2 Sao"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields.selection,name:ev_food_consultation_web.selection__food_consultation_dessert__rate__3
+#: model:ir.model.fields.selection,name:ev_food_consultation_web.selection__food_consultation_detail__rate__3
+msgid "3 Star"
+msgstr "3 Sao"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields.selection,name:ev_food_consultation_web.selection__food_consultation_dessert__rate__4
+#: model:ir.model.fields.selection,name:ev_food_consultation_web.selection__food_consultation_detail__rate__4
+msgid "4 Star"
+msgstr "4 Sao"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields.selection,name:ev_food_consultation_web.selection__food_consultation_dessert__rate__5
+#: model:ir.model.fields.selection,name:ev_food_consultation_web.selection__food_consultation_detail__rate__5
+msgid "5 Star"
+msgstr "5 Sao"
+
+#. module: ev_food_consultation_web
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.view_product_image_form
+msgid "<span>Video Preview</span>"
+msgstr "Xem trước Video"
+
+#. module: ev_food_consultation_web
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.product_image_view_kanban
+msgid "Acceptable file size"
+msgstr "Kích thước tập tin chấp nhận được"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_benefit__message_needaction
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__message_needaction
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__message_needaction
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_flavor__message_needaction
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__message_needaction
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__message_needaction
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__message_needaction
+msgid "Action Needed"
+msgstr "Hành động cần thiết"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_benefit__activity_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__activity_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__activity_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_flavor__activity_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__activity_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__activity_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__activity_ids
+msgid "Activities"
+msgstr "Hoạt động"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_benefit__activity_exception_decoration
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__activity_exception_decoration
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__activity_exception_decoration
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_flavor__activity_exception_decoration
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__activity_exception_decoration
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__activity_exception_decoration
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_benefit__activity_state
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__activity_state
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__activity_state
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_flavor__activity_state
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__activity_state
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__activity_state
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__activity_state
+msgid "Activity State"
+msgstr "Trạng thái hoạt động"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_benefit__activity_type_icon
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__activity_type_icon
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__activity_type_icon
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_flavor__activity_type_icon
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__activity_type_icon
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__activity_type_icon
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Loại icon hoạt động"
+
+#. module: ev_food_consultation_web
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.food_consultation_dessert_form_view
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.food_consultation_detail_form_view
+msgid "Add a Media"
+msgstr "Thêm Hình ảnh"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_benefit__message_attachment_count
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__message_attachment_count
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__message_attachment_count
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_flavor__message_attachment_count
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__message_attachment_count
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__message_attachment_count
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__message_attachment_count
+msgid "Attachment Count"
+msgstr "Số tệp đính kèm"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__benefit_id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__benefit_id
+msgid "Benefit"
+msgstr "Tác dụng sức khoẻ"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_image__can_image_1024_be_zoomed
+msgid "Can Image 1024 be zoomed"
+msgstr "Ảnh 1024 có thể phóng to"
+
+#. module: ev_food_consultation_web
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.food_consultation_menu_form_view
+msgid "Choose your dish for today"
+msgstr "Chọn thực đơn cho bữa ăn hôm nay"
+
+#. module: ev_food_consultation_web
+#: model:ir.model,name:ev_food_consultation_web.model_food_consultation_detail
+msgid "Collection of Food Detail"
+msgstr "Tổng hợp chi tiết các món ăn"
+
+#. module: ev_food_consultation_web
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.food_consultation_dessert_kanban_view
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.food_consultation_detail_kanban_view
+msgid "Create By: ["
+msgstr "Tạo bởi: ["
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__create_user_id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__create_user_id
+msgid "Create User"
+msgstr "Người tạo"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_dessert__create_user_id
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_detail__create_user_id
+msgid "Create_user_id"
+msgstr "Người tạo"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_benefit__create_uid
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__create_uid
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__create_uid
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_flavor__create_uid
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_image__create_uid
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_ingredient__create_uid
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__create_uid
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_preparation__create_uid
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__create_uid
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__create_uid
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_sickness__create_uid
+msgid "Created by"
+msgstr "Tạo bởi"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_benefit__create_date
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__create_date
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__create_date
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_flavor__create_date
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_image__create_date
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_ingredient__create_date
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__create_date
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_preparation__create_date
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__create_date
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_sickness__create_date
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__create_date
+msgid "Created on"
+msgstr "Ngày tạo"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__date
+msgid "Date"
+msgstr "Ngày"
+
+#. module: ev_food_consultation_web
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.food_consultation_menu_kanban_view
+msgid "Date: ["
+msgstr ""
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_benefit__description
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__description
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__description
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_flavor__description
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__description
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__description
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_benefit__description
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_flavor__description
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_menu__description
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_sickness__description
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_season__description
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_sickness__description
+msgid "Description"
+msgstr "Mô tả"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_benefit__display_name
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__display_name
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__display_name
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_flavor__display_name
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_image__display_name
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_ingredient__display_name
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__display_name
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_preparation__display_name
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__display_name
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_sickness__display_name
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields.selection,name:ev_food_consultation_web.selection__food_consultation_dessert__level_difficult__easy
+#: model:ir.model.fields.selection,name:ev_food_consultation_web.selection__food_consultation_detail__level_difficult__easy
+msgid "Easy"
+msgstr "Dễ"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_image__embed_code
+msgid "Embed Code"
+msgstr "Mã nhúng"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__food_template_image_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__food_template_image_ids
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.food_consultation_dessert_form_view
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.food_consultation_detail_form_view
+msgid "Extra Product Media"
+msgstr "Ảnh sản phẩm bổ sung"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__priority
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__priority
+#: model:ir.model.fields.selection,name:ev_food_consultation_web.selection__food_consultation_dessert__priority__1
+#: model:ir.model.fields.selection,name:ev_food_consultation_web.selection__food_consultation_detail__priority__1
+msgid "Favorite"
+msgstr "Yêu thích"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__flavor_id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__flavor_id
+msgid "Flavor"
+msgstr "Hương vị"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_benefit__message_follower_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__message_follower_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__message_follower_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_flavor__message_follower_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__message_follower_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__message_follower_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__message_follower_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_sickness__message_follower_ids
+msgid "Followers"
+msgstr "Người theo dõi"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_benefit__message_partner_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__message_partner_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__message_partner_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_flavor__message_partner_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__message_partner_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__message_partner_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__message_partner_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_sickness__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Người theo dõi(Đối tác)"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_benefit__activity_type_icon
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_dessert__activity_type_icon
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_detail__activity_type_icon
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_flavor__activity_type_icon
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_menu__activity_type_icon
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_season__activity_type_icon
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_intro__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: ev_food_consultation_web
+#: model:res.groups,name:ev_food_consultation_web.group_food_admin
+msgid "Food Admin"
+msgstr "Người quản lý"
+
+#. module: ev_food_consultation_web
+#: model:ir.actions.act_window,name:ev_food_consultation_web.food_consultation_benefit_action
+#: model:ir.ui.menu,name:ev_food_consultation_web.food_consultation_benefit_menu
+msgid "Food Benefit"
+msgstr "Tác dụng Sức khoẻ"
+
+#. module: ev_food_consultation_web
+#: model:ir.ui.menu,name:ev_food_consultation_web.food_category
+msgid "Food Category"
+msgstr "Danh mục món ăn"
+
+#. module: ev_food_consultation_web
+#: model:ir.model,name:ev_food_consultation_web.model_food_consultation_sickness
+msgid "Food Consultation Sickness"
+msgstr "Tác dụng chữa bệnh"
+
+#. module: ev_food_consultation_web
+#: model:ir.ui.menu,name:ev_food_consultation_web.food_consultation_sickness_menu
+msgid "Food Sickness"
+msgstr "Tác dụng chữa bệnh"
+
+#. module: ev_food_consultation_web
+#: model:ir.actions.act_window,name:ev_food_consultation_web.food_consultation_sickness_action
+msgid "Food sickness"
+msgstr "Tác dụng chữa bệnh"
+
+#. module: ev_food_consultation_web
+#: model:ir.ui.menu,name:ev_food_consultation_web.food_config
+msgid "Food Config"
+msgstr "Cấu hình món ăn"
+
+#. module: ev_food_consultation_web
+#: model:ir.actions.act_window,name:ev_food_consultation_web.food_consultation_detail_action
+#: model:ir.ui.menu,name:ev_food_consultation_web.food_consultation_detail_menu
+#: model:ir.ui.menu,name:ev_food_consultation_web.food_menu_root
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.food_consultation_dessert_form_view
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.food_consultation_detail_form_view
+msgid "Food Consultation"
+msgstr "Tư vấn đồ ăn"
+
+#. module: ev_food_consultation_web
+#: model:ir.model,name:ev_food_consultation_web.model_food_consultation_benefit
+msgid "Food Consultation Benefit"
+msgstr "Tác Dụng Món ăn với sức khoẻ"
+
+#. module: ev_food_consultation_web
+#: model:ir.model,name:ev_food_consultation_web.model_food_consultation_dessert
+msgid "Food Consultation Dessert"
+msgstr "Món khai vị/Món tráng miệng"
+
+#. module: ev_food_consultation_web
+#: model:ir.model,name:ev_food_consultation_web.model_food_consultation_flavor
+msgid "Food Consultation Flavor"
+msgstr "Hương vị món ăn"
+
+#. module: ev_food_consultation_web
+#: model:ir.model,name:ev_food_consultation_web.model_food_consultation_image
+msgid "Food Consultation Image"
+msgstr "Ảnh  Món ăn"
+
+#. module: ev_food_consultation_web
+#: model:ir.model,name:ev_food_consultation_web.model_food_consultation_ingredient
+msgid "Food Consultation Ingredient"
+msgstr "Thành phần món ăn"
+
+#. module: ev_food_consultation_web
+#: model:ir.model,name:ev_food_consultation_web.model_food_consultation_menu
+msgid "Food Consultation Menu"
+msgstr "Thực đơn món ăn"
+
+#. module: ev_food_consultation_web
+#: model:ir.model,name:ev_food_consultation_web.model_food_consultation_preparation
+msgid "Food Consultation Preparation"
+msgstr "Các bước chuẩn bị món ăn"
+
+#. module: ev_food_consultation_web
+#: model:ir.model,name:ev_food_consultation_web.model_food_consultation_season
+msgid "Food Consultation Season"
+msgstr "Các mùa trong năm"
+
+#. module: ev_food_consultation_web
+#: model:ir.actions.act_window,name:ev_food_consultation_web.food_consultation_dessert_action
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__line_dessert_id
+#: model:ir.ui.menu,name:ev_food_consultation_web.food_consultation_dessert_menu
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.food_consultation_menu_form_view
+msgid "Food Dessert"
+msgstr "Món ăn khai vị/Món ăn tráng miệng"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_ingredient__food_detail_id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_preparation__food_detail_id
+msgid "Food Detail"
+msgstr "Chi tiết món ăn"
+
+#. module: ev_food_consultation_web
+#: model:ir.actions.act_window,name:ev_food_consultation_web.food_consultation_flavor_action
+#: model:ir.ui.menu,name:ev_food_consultation_web.food_consultation_flavor_menu
+msgid "Food Flavor"
+msgstr "Hương vị món ăn"
+
+#. module: ev_food_consultation_web
+#: model:ir.actions.act_window,name:ev_food_consultation_web.food_intro_action
+#: model:ir.model,name:ev_food_consultation_web.model_food_intro
+#: model:ir.ui.menu,name:ev_food_consultation_web.food_intro_menu
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.food_intro_form_view
+msgid "Food Intro"
+msgstr "Giới thiệu"
+
+#. module: ev_food_consultation_web
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.food_consultation_menu_form_view
+msgid "Food List"
+msgstr "Danh sách món ăn"
+
+#. module: ev_food_consultation_web
+#: model:ir.module.category,name:ev_food_consultation_web.module_asset_group
+msgid "Food Management"
+msgstr "Người quản lý"
+
+#. module: ev_food_consultation_web
+#: model:ir.actions.act_window,name:ev_food_consultation_web.food_consultation_menu_action
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__food_dessert_id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__food_menu_id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__food_menu_id
+#: model:ir.ui.menu,name:ev_food_consultation_web.food_consultation_menu_menu
+msgid "Food Menu"
+msgstr "Thực đơn món ăn"
+
+#. module: ev_food_consultation_web
+#: model:ir.actions.act_window,name:ev_food_consultation_web.food_consultation_season_action
+#: model:ir.ui.menu,name:ev_food_consultation_web.food_consultation_season_menu
+msgid "Food Season"
+msgstr "Các mùa trong năm"
+
+#. module: ev_food_consultation_web
+#: model:res.groups,name:ev_food_consultation_web.group_food_user
+msgid "Food User"
+msgstr "Người dùng"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__line_id
+msgid "Food deatail"
+msgstr "Chi tiết món ăn"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields.selection,name:ev_food_consultation_web.selection__food_consultation_dessert__level_difficult__hard
+#: model:ir.model.fields.selection,name:ev_food_consultation_web.selection__food_consultation_detail__level_difficult__hard
+msgid "Hard"
+msgstr "Khó"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_benefit__has_message
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__has_message
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__has_message
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_flavor__has_message
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__has_message
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__has_message
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__has_message
+msgid "Has Message"
+msgstr "Có tin nhắn"
+
+#. module: ev_food_consultation_web
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.product_image_view_kanban
+msgid "Huge file size. The image should be optimized/reduced."
+msgstr "Kích thước tập tin lớn. Hình ảnh cần được tối ưu hóa/giảm bớt."
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_benefit__id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_flavor__id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_image__id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_ingredient__id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_preparation__id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_sickness__id
+msgid "ID"
+msgstr ""
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_benefit__activity_exception_icon
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__activity_exception_icon
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__activity_exception_icon
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_flavor__activity_exception_icon
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__activity_exception_icon
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__activity_exception_icon
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__activity_exception_icon
+msgid "Icon"
+msgstr "Biểu tượng"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_benefit__activity_exception_icon
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_dessert__activity_exception_icon
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_detail__activity_exception_icon
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_flavor__activity_exception_icon
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_menu__activity_exception_icon
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_season__activity_exception_icon
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_intro__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_benefit__message_needaction
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_dessert__message_needaction
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_detail__message_needaction
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_flavor__message_needaction
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_menu__message_needaction
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_season__message_needaction
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_intro__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_benefit__message_has_error
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_benefit__message_has_sms_error
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_dessert__message_has_error
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_dessert__message_has_sms_error
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_detail__message_has_error
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_detail__message_has_sms_error
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_flavor__message_has_error
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_flavor__message_has_sms_error
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_menu__message_has_error
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_menu__message_has_sms_error
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_season__message_has_error
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_season__message_has_sms_error
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_intro__message_has_error
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_intro__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__image
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__image
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_image__image_1920
+msgid "Image"
+msgstr "Ảnh món ăn"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_image__image_1024
+msgid "Image 1024"
+msgstr ""
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_image__image_128
+msgid "Image 128"
+msgstr ""
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_image__image_256
+msgid "Image 256"
+msgstr ""
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_image__image_512
+msgid "Image 512"
+msgstr ""
+
+#. module: ev_food_consultation_web
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.view_product_image_form
+msgid "Image Name"
+msgstr "Tên hình ảnh"
+
+#. module: ev_food_consultation_web
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.food_consultation_dessert_form_view
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.food_consultation_detail_form_view
+msgid "Information"
+msgstr "Thông tin"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__ingredient_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__ingredient_ids
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.food_consultation_dessert_form_view
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.food_consultation_detail_form_view
+msgid "Ingredient"
+msgstr "Nguyên liệu"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_ingredient__ingredient_description
+msgid "Ingredient Description"
+msgstr "Mô tả nguyên liệu"
+
+#. module: ev_food_consultation_web
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.food_consultation_dessert_form_view
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.food_consultation_detail_form_view
+msgid "Input Hour Estimate"
+msgstr "Nhập số giờ ước tính"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_benefit__message_is_follower
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__message_is_follower
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__message_is_follower
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_flavor__message_is_follower
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__message_is_follower
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__message_is_follower
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__message_is_follower
+msgid "Is Follower"
+msgstr "Là người theo dõi"
+
+#. module: ev_food_consultation_web
+#. odoo-python
+#: code:addons/ev_food_consultation_web/models/food_conslutation_menu.py:0
+#: code:addons/ev_food_consultation_web/models/food_consultation_benefit.py:0
+#: code:addons/ev_food_consultation_web/models/food_consultation_detail.py:0
+#: code:addons/ev_food_consultation_web/models/food_consultation_flavor.py:0
+#: code:addons/ev_food_consultation_web/models/food_consultation_season.py:0
+#: code:addons/ev_food_consultation_web/models/food_consultation_sickness.py:0
+#, python-format
+msgid "It not possible to dupplicate the record."
+msgstr "Không khả dụng nhân bản bản ghi"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_benefit____last_update
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert____last_update
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail____last_update
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_flavor____last_update
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_image____last_update
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_ingredient____last_update
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu____last_update
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_preparation____last_update
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season____last_update
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro____last_update
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_sickness____last_update
+msgid "Last Modified on"
+msgstr "Lần cuối chỉnh sửa vào"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_benefit__write_uid
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__write_uid
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__write_uid
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_flavor__write_uid
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_image__write_uid
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_ingredient__write_uid
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__write_uid
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_preparation__write_uid
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__write_uid
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__write_uid
+msgid "Last Updated by"
+msgstr "Lần cuối cập nhật bởi"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_benefit__write_date
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__write_date
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__write_date
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_flavor__write_date
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_image__write_date
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_ingredient__write_date
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__write_date
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_preparation__write_date
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__write_date
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_sickness__write_date
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__write_date
+msgid "Last Updated on"
+msgstr "Lần cuối cập nhật vào"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__level_difficult
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__level_difficult
+msgid "Level Difficult"
+msgstr "Độ khó khi làm món ăn"
+
+#. module: ev_food_consultation_web
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.food_consultation_dessert_kanban_view
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.food_consultation_detail_kanban_view
+msgid "Level Difficult: ["
+msgstr "Độ khó ["
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_benefit__message_main_attachment_id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__message_main_attachment_id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__message_main_attachment_id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_flavor__message_main_attachment_id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__message_main_attachment_id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__message_main_attachment_id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Tệp đính kèm chính"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields.selection,name:ev_food_consultation_web.selection__food_consultation_dessert__level_difficult__medium
+#: model:ir.model.fields.selection,name:ev_food_consultation_web.selection__food_consultation_detail__level_difficult__medium
+msgid "Medium"
+msgstr "Trung bình"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_benefit__message_has_error
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__message_has_error
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__message_has_error
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_flavor__message_has_error
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__message_has_error
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__message_has_error
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__message_has_error
+msgid "Message Delivery error"
+msgstr "Tin nhắn gửi đi bị lỗi"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_benefit__message_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__message_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__message_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_flavor__message_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__message_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__message_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__message_ids
+msgid "Messages"
+msgstr "Tin nhắn"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_benefit__my_activity_date_deadline
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__my_activity_date_deadline
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__my_activity_date_deadline
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_flavor__my_activity_date_deadline
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__my_activity_date_deadline
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__my_activity_date_deadline
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: ev_food_consultation_web
+#. odoo-python
+#: code:addons/ev_food_consultation_web/models/food_consultation_detail.py:0
+#, python-format
+msgid "Món ăn hôm nay của bạn sẽ là: {name}"
+msgstr "Món ăn hôm nay của bạn sẽ là: {name}"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_benefit__name
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__name
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__name
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_flavor__name
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_image__name
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_ingredient__name
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__name
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_preparation__name
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__name
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_benefit__name
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_dessert__name
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_detail__name
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_flavor__name
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_ingredient__name
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_menu__name
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_preparation__name
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_sickness__name
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_sickness__name
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_season__name
+msgid "Name"
+msgstr "Tên"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__sickness_id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__sickness_id
+msgid "Sickness"
+msgstr "Tác dụng chữa bệnh"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_dessert__sickness_id
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_detail__sickness_id
+msgid "sickness_id"
+msgstr "Tác dụng chữa bệnh"
+
+#. module: ev_food_consultation_web
+#. odoo-javascript
+#: code:addons/ev_food_consultation_web/static/src/xml/website_sale_image_viewer.xml:0
+#, python-format
+msgid "Next (Right-Arrow)"
+msgstr ""
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_benefit__activity_date_deadline
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__activity_date_deadline
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__activity_date_deadline
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_flavor__activity_date_deadline
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__activity_date_deadline
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__activity_date_deadline
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Hành động tiếp theo"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_benefit__activity_summary
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__activity_summary
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__activity_summary
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_flavor__activity_summary
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__activity_summary
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__activity_summary
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_benefit__activity_type_id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__activity_type_id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__activity_type_id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_flavor__activity_type_id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__activity_type_id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__activity_type_id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields.selection,name:ev_food_consultation_web.selection__food_consultation_dessert__priority__0
+#: model:ir.model.fields.selection,name:ev_food_consultation_web.selection__food_consultation_detail__priority__0
+msgid "Normal"
+msgstr "Không yêu thích"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_benefit__message_needaction_counter
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__message_needaction_counter
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__message_needaction_counter
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_flavor__message_needaction_counter
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__message_needaction_counter
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__message_needaction_counter
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Số lượng hành động"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_benefit__message_has_error_counter
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__message_has_error_counter
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__message_has_error_counter
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_flavor__message_has_error_counter
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__message_has_error_counter
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__message_has_error_counter
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__message_has_error_counter
+msgid "Number of errors"
+msgstr "Số lượng lỗi"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_benefit__message_needaction_counter
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_dessert__message_needaction_counter
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_detail__message_needaction_counter
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_flavor__message_needaction_counter
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_menu__message_needaction_counter
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_season__message_needaction_counter
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_intro__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Số lượng tin nhắn hành động yêu cầu"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_benefit__message_has_error_counter
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_dessert__message_has_error_counter
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_detail__message_has_error_counter
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_flavor__message_has_error_counter
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_menu__message_has_error_counter
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_season__message_has_error_counter
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_intro__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Số lượng tin nhắn lỗi gửi đi"
+
+#. module: ev_food_consultation_web
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.product_image_view_kanban
+msgid ""
+"Optimization required! Reduce the image size or increase your\n"
+"                                        compression settings."
+msgstr "Cần tối ưu hóa! Hãy giảm kích thước hình ảnh hoặc tăng\n"
+" cài đặt nén."
+
+#. module: ev_food_consultation_web
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.view_product_image_form
+msgid "Please enter a valid Video URL."
+msgstr "Vui lòng điền URL video hợp lệ"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__preparation_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__preparation_ids
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.food_consultation_dessert_form_view
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.food_consultation_detail_form_view
+msgid "Preparation"
+msgstr "Sự chuẩn bị"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_preparation__preparation_description
+msgid "Preparation Description"
+msgstr "Mô tả sự chuẩn bị"
+
+#. module: ev_food_consultation_web
+#. odoo-javascript
+#: code:addons/ev_food_consultation_web/static/src/xml/website_sale_image_viewer.xml:0
+#, python-format
+msgid "Previous (Left-Arrow)"
+msgstr ""
+
+#. module: ev_food_consultation_web
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.food_consultation_dessert_kanban_view
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.food_consultation_detail_kanban_view
+msgid "Product"
+msgstr "Sản phẩm"
+
+#. module: ev_food_consultation_web
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.product_image_view_kanban
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.view_product_image_form
+msgid "Product Images"
+msgstr "Ảnh sản phẩm"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_image__product_tmpl_id
+msgid "Product Template"
+msgstr "Ảnh sản phẩm"
+
+#. module: ev_food_consultation_web
+#. odoo-python
+#: code:addons/ev_food_consultation_web/models/food_consultation_image.py:0
+#, python-format
+msgid ""
+"Provided video URL for '%s' is not valid. Please enter a valid video URL."
+msgstr "URL video được cung cấp cho '%s' không hợp lệ. Vui lòng nhập URL video hợp lệ."
+
+#. module: ev_food_consultation_web
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.food_consultation_detail_form_view
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.food_consultation_detail_tree_view
+msgid "Random"
+msgstr "Chọn ngẫu nhiên"
+
+#. module: ev_food_consultation_web
+#. odoo-javascript
+#: code:addons/ev_food_consultation_web/static/src/xml/tree_view_button.xml:0
+#, python-format
+msgid "Random Food"
+msgstr "Chọn ngẫu nhiên"
+
+#. module: ev_food_consultation_web
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.food_consultation_menu_form_view
+msgid "Random Menu"
+msgstr "Chọn ngẫu nhiên thực đơn"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__rate
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__rate
+msgid "Rate"
+msgstr "Đánh giá"
+
+#. module: ev_food_consultation_web
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.food_consultation_dessert_kanban_view
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.food_consultation_detail_kanban_view
+msgid "Rate: ["
+msgstr "Đánh giá ["
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_ingredient__request_qty
+msgid "Request Quantity"
+msgstr "Số lượng yêu cầu"
+
+#. module: ev_food_consultation_web
+#. odoo-python
+#: code:addons/ev_food_consultation_web/models/food_consultation_ingredient.py:0
+#, python-format
+msgid "Request quantity must be non-negative"
+msgstr "Số lượng yêu cầu không được âm"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_benefit__activity_user_id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__activity_user_id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__activity_user_id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_flavor__activity_user_id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__activity_user_id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__activity_user_id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__activity_user_id
+msgid "Responsible User"
+msgstr "Người chịu trách nhiệm"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_benefit__message_has_sms_error
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__message_has_sms_error
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__message_has_sms_error
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_flavor__message_has_sms_error
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__message_has_sms_error
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__message_has_sms_error
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr ""
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__season_id
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__season_id
+msgid "Season"
+msgstr "Mùa"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_image__sequence
+msgid "Sequence"
+msgstr "Thứ tự"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_benefit__activity_state
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_dessert__activity_state
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_detail__activity_state
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_flavor__activity_state
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_menu__activity_state
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_season__activity_state
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_intro__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: ev_food_consultation_web
+#: model:ir.model.constraint,message:ev_food_consultation_web.constraint_food_consultation_dessert_name_unique
+#: model:ir.model.constraint,message:ev_food_consultation_web.constraint_food_consultation_detail_name_unique
+#: model:ir.model.constraint,message:ev_food_consultation_web.constraint_food_consultation_ingredient_name_unique
+msgid "The name must be UNIQUE"
+msgstr "Tên phải là duy nhất"
+
+#. module: ev_food_consultation_web
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.food_consultation_menu_kanban_view
+msgid "Thực đơn ngày hôm nay bao gồm"
+msgstr ""
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__time
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__time
+msgid "Time"
+msgstr "Thời gian"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_benefit__activity_exception_decoration
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_dessert__activity_exception_decoration
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_detail__activity_exception_decoration
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_flavor__activity_exception_decoration
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_menu__activity_exception_decoration
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_season__activity_exception_decoration
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_intro__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Loại lỗi ngoại lệ hành động trên bản ghi"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_image__video_url
+msgid "URL of a video for showcasing your product."
+msgstr "URL của video để giới thiệu sản phẩm của bạn."
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_image__video_url
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.view_product_image_form
+msgid "Video URL"
+msgstr ""
+
+#. module: ev_food_consultation_web
+#. odoo-javascript
+#: code:addons/ev_food_consultation_web/static/src/xml/website_sale_image_viewer.xml:0
+#, python-format
+msgid "Viewer"
+msgstr "Người xem"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_benefit__website_message_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_dessert__website_message_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_detail__website_message_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_flavor__website_message_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_menu__website_message_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_consultation_season__website_message_ids
+#: model:ir.model.fields,field_description:ev_food_consultation_web.field_food_intro__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_benefit__website_message_ids
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_dessert__website_message_ids
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_detail__website_message_ids
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_flavor__website_message_ids
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_menu__website_message_ids
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_season__website_message_ids
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_intro__website_message_ids
+msgid "Website communication history"
+msgstr ""
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_dessert__benefit_id
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_detail__benefit_id
+msgid "benefit_id"
+msgstr "Tác dụng sức khoẻ"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_menu__date
+msgid "date"
+msgstr "Ngày"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_dessert__flavor_id
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_detail__flavor_id
+msgid "flavor_id"
+msgstr "Hương vị"
+
+#. module: ev_food_consultation_web
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.food_consultation_dessert_tree_view
+msgid "food_dessert_tree"
+msgstr "Tác dụng sức khoẻ"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_ingredient__food_detail_id
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_preparation__food_detail_id
+msgid "food_detail_id"
+msgstr "Chi tiết món ăn"
+
+#. module: ev_food_consultation_web
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.food_consultation_detail_tree_view
+msgid "food_detail_tree"
+msgstr "Danh sách món ăn"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_dessert__food_dessert_id
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_dessert__food_menu_id
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_detail__food_menu_id
+msgid "food_menu_id"
+msgstr "Thực đơn"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_ingredient__ingredient_description
+msgid "ingredient_description"
+msgstr "Mô tả"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_dessert__ingredient_ids
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_detail__ingredient_ids
+msgid "ingredient_ids"
+msgstr "Nguyên liệu"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_preparation__preparation_description
+msgid "preparation_description"
+msgstr "Mô tả"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_dessert__preparation_ids
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_detail__preparation_ids
+msgid "preparation_ids"
+msgstr "Sự chuẩn bị"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_ingredient__request_qty
+msgid "request_qty"
+msgstr "Số lượng yêu cầu"
+
+#. module: ev_food_consultation_web
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_dessert__season_id
+#: model:ir.model.fields,help:ev_food_consultation_web.field_food_consultation_detail__season_id
+msgid "season_id"
+msgstr "Mùa"
+
+#. module: ev_food_consultation_web
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.food_consultation_dessert_search_view
+#: model_terms:ir.ui.view,arch_db:ev_food_consultation_web.food_consultation_detail_search_view
+msgid "string"
+msgstr ""
